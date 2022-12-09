@@ -12,6 +12,7 @@ public class CalcolatriceGUI extends JFrame {
     public CalcolatriceGUI() throws HeadlessException {
         this.buttons = new JPanel(new GridLayout(4, 5));
         this.screen = new JLabel();
+        // aggiungere i tasti
         screen.setText("HELLO!");
         for(CalcolatriceButton cb:  this.allButtons){
 
